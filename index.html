@@ -1,0 +1,49 @@
+@@ -0,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		</head>
+		<body>
+			<div class="preload">
+				<div style="color:yellow;" class="popup" onclick="ShowDownload()">Welcome
+					<span class="popuptext" id="DownloadPop">Thank you for choosing Hard Hats! <br /> Click to download:</span>
+				</div>
+				<div style="color:yellow;" class="info" onclick="ShowInfo()"><br /> <br />
+					Hard Hats is a comprehensive app for Android devices that allows  <br /> general contractors
+					 of all kinds to manage their various jobs and send invoices to customers. <br />  The app also allows for sub contractors to be
+					  included and connected with their customers. </span>
+				</div>
+				<div class="logo">
+					Hard<span style="color:green;">Hatz</span>
+					</div>
+					<div class="loader-frame">
+						<div class="loader1" id="loader1></div>	
+						<div class="loader2" id="loader2"></div>
+					</div>
+					<div class="aboutLogo">
+					<a href="Hardhats.apk" download="Hardhats">	<button type="submit">Download!</button> </a>
+					<span style="color:green;"><br />Thank you for visiting Hard Hatz, have a swell day!<br /></span>
+					<span style="color:yellow"><br />Project Authors: <br />Jonathan Cucuzza <br />Evan Esatto <br />Adam Danielsen <br />Michael Kruger<br /> Oscar Dass</span>
+					</div>
+				</div>
+				
+				<script>
+					// When the user clicks on <div>, open the popup
+						// home/hardhatz/public_html/Hardhats.apk
+					function ShowDownload() {
+					var popup = document.getElementById("DownloadPop");
+					popup.classList.toggle("show");
+					}
+					
+					function ShowInfo() {
+					var popup = document.getElementById("InfoPop");
+					info.classList.toggle("showInfo");
+					}
+
+				</script>
+				
+				<script src="script.js></script>
+				</body>
+			</html>
